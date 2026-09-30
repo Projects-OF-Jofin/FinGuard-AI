@@ -1,0 +1,7 @@
+transaction_id,user_id,timestamp,amount,merchant_id,merchant_category,location,device_id,ip_address,payment_method,account_age,transaction_count_24h,avg_transaction_amount,distance_from_home,is_new_device,is_new_location,is_fraud
+TXN000987232,USER001150,2026-06-22 16:50:47,1059.70,MERCHANT002035,retail,Delhi,DEVICE003339,192.0.2.59,upi,1316,12,1934.33,43.5,False,False,False
+TXN000079955,USER000731,2026-07-17 13:55:11,850.27,MERCHANT003234,travel,Pune,DEVICE001104,192.0.2.195,upi,2708,6,828.30,11.1,False,False,False
+TXN000583021,USER000912,2026-08-04 09:47:03,19250.40,MERCHANT001822,electronics,Bengaluru,DEVICE002412,192.0.2.77,card,562,8,2150.00,1200.0,True,True,True
+TXN000845741,USER000407,2026-08-27 04:12:10,4120.90,MERCHANT000980,food,Hyderabad,DEVICE005118,192.0.2.46,upi,190,3,740.00,8.9,False,False,False
+TXN000154337,USER000290,2026-09-03 23:58:50,65190.00,MERCHANT004522,unknown,Chennai,DEVICE009043,192.0.2.221,card,205,19,3420.00,980.0,True,True,True
+TXN000447610,USER000564,2026-09-19 18:11:04,2100.50,MERCHANT004111,retail,Kolkata,DEVICE007441,192.0.2.108,upi,987,7,1580.00,22.0,False,False,False

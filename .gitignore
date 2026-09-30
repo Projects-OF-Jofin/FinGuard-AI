@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large generated datasets
+data/transactions.csv
+data/processed/*.csv
+data/processed/
+
+# Logs
+*.log
+
+# Temporary
+*.tmp
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+
+# Keep sample data tracked
+!data/sample/
+!data/sample/*.csv
